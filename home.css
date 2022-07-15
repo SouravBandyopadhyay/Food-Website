@@ -1,0 +1,153 @@
+body {
+  background-color: #2d2013;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#l1 {
+  width: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+}
+#l1 > .l1a {
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+}
+#l1 > .l1a > img {
+  width: 100%;
+}
+#inp {
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  display: flex;
+}
+#inp > #bar {
+  width: 70%;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  background-color: wheat;
+  margin: auto;
+}
+#search {
+  width: 12%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(120, 206, 219);
+  font-weight: 600;
+}
+#random{
+    width: 25%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(205, 241, 161);
+    font-weight: 600;
+
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0px;
+}
+#content {
+  display: flex;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  justify-content: center;
+  width: 40%;
+  gap: 15px;
+  /* font-size: 20px; */
+  font-family: "Open Sans", sans-serif;
+}
+#content > div {
+  display: flex;
+}
+#content > div > img {
+  margin: auto;
+  right: 5px;
+  height: 18px;
+  width: 18px;
+}
+#content > div > p {
+  font-size: 20px;
+}
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  font-size: 18px;
+}
+#navbar > h3 > a {
+  color: rgb(254, 254, 254);
+}
+#navbar > h3 {
+  color: rgb(254, 254, 254);
+}
+#meal {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+#meal > .meals {
+  width: 100%;
+  margin: auto;
+  border: 1px solid white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto);
+  text-align: center;
+  justify-content: space-between;
+}
+.meals > img {
+  border: 2px solid cyan;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border-radius: 7px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.meals > .details {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.details > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.des {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
